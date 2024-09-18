@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   standalone: true,
   imports: [CommonModule, NavbarComponent],
   template: ` <section>
-    <app-navbar></app-navbar>
+    <div><app-navbar></app-navbar></div>
     <h1>SAKURA RAMEN</h1>
     <h2>BEST RAMEN IN TOWN</h2>
   </section>`,
